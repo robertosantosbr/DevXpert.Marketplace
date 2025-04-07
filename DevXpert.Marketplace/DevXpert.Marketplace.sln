@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevXpert.Marketplace.Domain", "DevXpert.Marketplace.Domain\DevXpert.Marketplace.Domain.csproj", "{32BED2F9-387B-43CE-823D-CC45AB61266F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A075997-3A14-4EC3-B4D0-266D66EDFB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevXpert.Marketplace.Application", "DevXpert.Marketplace.Application\DevXpert.Marketplace.Application.csproj", "{2C861171-380E-4163-88FC-29C68B0C1F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevXpert.Marketplace.Infrastructure", "DevXpert.Marketplace.Infrastructure\DevXpert.Marketplace.Infrastructure.csproj", "{E90E11BA-6E82-4ABB-9E77-58FE89DC6AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevXpert.Marketplace.WebAPI", "DevXpert.Marketplace.WebAPI\DevXpert.Marketplace.WebAPI.csproj", "{AD9CB2B5-BC8B-48C9-8E91-C53DEB3B225C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F8450625-B194-4A36-A396-218BE3CDB051}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BED2F9-387B-43CE-823D-CC45AB61266F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BED2F9-387B-43CE-823D-CC45AB61266F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BED2F9-387B-43CE-823D-CC45AB61266F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BED2F9-387B-43CE-823D-CC45AB61266F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C861171-380E-4163-88FC-29C68B0C1F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C861171-380E-4163-88FC-29C68B0C1F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C861171-380E-4163-88FC-29C68B0C1F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C861171-380E-4163-88FC-29C68B0C1F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90E11BA-6E82-4ABB-9E77-58FE89DC6AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90E11BA-6E82-4ABB-9E77-58FE89DC6AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90E11BA-6E82-4ABB-9E77-58FE89DC6AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90E11BA-6E82-4ABB-9E77-58FE89DC6AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9CB2B5-BC8B-48C9-8E91-C53DEB3B225C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9CB2B5-BC8B-48C9-8E91-C53DEB3B225C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9CB2B5-BC8B-48C9-8E91-C53DEB3B225C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9CB2B5-BC8B-48C9-8E91-C53DEB3B225C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32BED2F9-387B-43CE-823D-CC45AB61266F} = {4A075997-3A14-4EC3-B4D0-266D66EDFB94}
+		{2C861171-380E-4163-88FC-29C68B0C1F3C} = {4A075997-3A14-4EC3-B4D0-266D66EDFB94}
+		{E90E11BA-6E82-4ABB-9E77-58FE89DC6AED} = {4A075997-3A14-4EC3-B4D0-266D66EDFB94}
+		{AD9CB2B5-BC8B-48C9-8E91-C53DEB3B225C} = {4A075997-3A14-4EC3-B4D0-266D66EDFB94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CA89EA7-A879-4F0E-B5F3-328CA1285693}
+	EndGlobalSection
+EndGlobal
