@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevXpert.Marketplace.Domain\DevXpert.Marketplace.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UseCases\Categories\Commands\CreateCategory\" />
+    <Folder Include="UseCases\Categories\Commands\DeleteCategory\" />
+    <Folder Include="UseCases\Categories\Commands\UpdateCategory\" />
+    <Folder Include="UseCases\Categories\Events\" />
+    <Folder Include="UseCases\Categories\Queries\GetCategoryAll\" />
+    <Folder Include="UseCases\Categories\Queries\GetCategoryById\" />
+    <Folder Include="UseCases\Products\Queries\GetProductAll\" />
+    <Folder Include="UseCases\Sellers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.3" />
+  </ItemGroup>
+
+</Project>

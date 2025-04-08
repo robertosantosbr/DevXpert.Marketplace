@@ -1,0 +1,6 @@
+@DevXpert.Marketplace.WebAPI_HostAddress = http://localhost:5110
+
+GET {{DevXpert.Marketplace.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
