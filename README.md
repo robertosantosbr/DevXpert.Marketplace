@@ -1,4 +1,4 @@
-# **DevXpert.Marketplace - Aplicação de Blog Simples com MVC e API RESTful**
+# **DevXpert.Marketplace - Aplicação MVC e API RESTful**
 
 ## **1. Apresentação**
 
